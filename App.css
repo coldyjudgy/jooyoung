@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10;
+  height: 30px;
+  min-width: 100px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  border: none;
+  background: rgb(255, 224, 0);
+  color: #282828;
+  margin-bottom: 20px;
+}
+
+.btn-secondary {
+  border: none;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin-top: 35px;
+}
+
+.center {
+  text-align: center;
+}
+
+.token-data {
+  margin-top: 90px;
+
+}
